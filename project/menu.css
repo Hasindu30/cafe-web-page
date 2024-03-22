@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.header{
+    background-color:#06041a;
+    padding: 20px 30%;
+    display: flex;
+    justify-content:end;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1000;
+    
+}
+.header #logo{
+    width: 60px;
+    margin-left: 40px;
+    position: absolute;
+    left: 30px;
+    top: 6px;
+}
+.header #buket{
+    width: 40px;
+    margin-left: 20px;
+    position: absolute;
+    left: 1290px;
+    top: 20px;
+    
+}
+.header #search{
+    width: 25px;
+    margin-left: 20px;
+    position: absolute;
+    left: 1360px;
+    top: 25px;
+}
+.navbar a{
+    color: white;
+    font-size: 26px;
+    margin-right: 40px;
+    position: relative;
+    left: 290px;  
+}
+.navbar a:hover{
+    color: #C4B000;
+}
+body{
+    background-color: #03071A;
+}
+.bimage1{
+    background: url(images/b5.png);
+    width: 550px;
+    height: 800px;
+    background-size:auto;
+    position: absolute;
+    left: 950px;
+}
+.p1 p{
+    color: #A9CE14;
+    font-size: 70px;
+    font-family: 'Advent Pro';
+    position: absolute;
+    left: 350px;
+}
+.button1{
+    position:absolute;
+    top: 200px;
+    left: 100px;
+    border: none;
+    color: #A01515;
+    padding: 6px 12px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+    background: transparent;
+    border: 3.4px solid #A01515;
+    
+}
+.button2{
+    position:absolute;
+    top: 200px;
+    left: 350px;
+    border: none;
+    color: #A01515;
+    padding: 6px 30px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+    background: transparent;
+    border: 3.4px solid #A01515;
+    
+}
+.button3{
+    position:absolute;
+    top: 200px;
+    left: 550px;
+    border: none;
+    color: #A01515;
+    padding: 6px 16px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 25px;
+    cursor: pointer;
+    background: transparent;
+    border: 3.4px solid #A01515;
+    
+}

@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.header{
+    background-color:#06041a;
+    padding: 20px 30%;
+    display: flex;
+    justify-content:end;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1000;
+    
+}
+.header #logo{
+    width: 60px;
+    margin-left: 40px;
+    position: absolute;
+    left: 30px;
+    top: 6px;
+}
+.header #buket{
+    width: 40px;
+    margin-left: 20px;
+    position: absolute;
+    left: 1290px;
+    top: 20px;
+    
+}
+.header #search{
+    width: 25px;
+    margin-left: 20px;
+    position: absolute;
+    left: 1360px;
+    top: 25px;
+}
+.navbar a{
+    color: white;
+    font-size: 26px;
+    margin-right: 40px;
+    position: relative;
+    left: 290px;  
+}
+.navbar a:hover{
+    color: #C4B000;
+}
+.bc3 p{
+    color: #0a0a0a;
+    font-size: 80px;
+    position:absolute;
+    left: 550px;
+    top: 70px;
+   font-family:'Acme';
+}
+.bc4 p{
+    color: #C4B000;
+    font-size: 80px;
+    position: absolute;
+    left: 700px;
+    top: 70px;
+   font-family:'Acme';
+}
+.bc5 p{
+    color: #5A753F;
+    position:absolute;
+    left: 470px;
+    top: 160px;
+    text-align: center;
+}
+.r1{
+    background: url(images/e1.jpg);
+    position:absolute;
+    width: 329px;
+    height: 312px;
+    left: 150px;
+    top: 230px;
+      
+}
+.r2{
+    background: url(images/e2.jpg);
+    position:absolute;
+    width: 329px;
+    height: 312px;
+    left: 600px;
+    top: 230px;  
+}
+.r3{
+    background: url(images/e3.png);
+    position:absolute;
+    width: 329px;
+    height: 312px;
+    left: 1050px;
+    top: 230px;  
+}
+.pr1 p{
+    color: #0a0a0a;
+    font-size: 40px;
+    position:absolute;
+    left: 280px;
+    top: 550px;
+   font-family:'Acme';
+}
+.pr2 p{
+    color: #0a0a0a;
+    font-size: 40px;
+    position:absolute;
+    left: 720px;
+    top: 550px;
+   font-family:'Acme';
+}
+.pr3 p{
+    color: #0a0a0a;
+    font-size: 40px;
+    position:absolute;
+    left: 1150px;
+    top: 550px;
+   font-family:'Acme';
+}
+.pr4 p{
+    color: #7C7139;
+    font-size: 15px;
+    position:absolute;
+    left: 220px;
+    top: 600px;
+    text-align: center; 
+}
+.pr5 p{
+    color: #7C7139;
+    font-size: 15px;
+    position:absolute;
+    left: 630px;
+    top: 600px;
+    text-align: center; 
+}
+.pr6 p{
+    color: #7C7139;
+    font-size: 15px;
+    position:absolute;
+    left: 1100px;
+    top: 600px;
+    text-align: center; 
+}

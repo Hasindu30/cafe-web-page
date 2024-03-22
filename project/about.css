@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+    box-sizing: border-box;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+.header{
+    background-color:#06041a;
+    padding: 20px 30%;
+    display: flex;
+    justify-content:end;
+    left: 0;
+    right: 0;
+    position: fixed;
+    z-index: 1000;
+    
+}
+.header #logo{
+    width: 60px;
+    margin-left: 40px;
+    position: absolute;
+    left: 30px;
+    top: 6px;
+}
+.header #buket{
+    width: 40px;
+    margin-left: 20px;
+    position: absolute;
+    left: 1290px;
+    top: 20px;
+    
+}
+.header #search{
+    width: 25px;
+    margin-left: 20px;
+    position: absolute;
+    left: 1360px;
+    top: 25px;
+}
+.navbar a{
+    color: white;
+    font-size: 26px;
+    margin-right: 40px;
+    position: relative;
+    left: 290px;  
+}
+.navbar a:hover{
+    color: #C4B000;
+}
+body{
+    background-color: #F5FFCB;
+}
+.e10{
+    position: absolute;
+    background-size: cover;  
+}
+.e11{
+    position: absolute;
+    left: 735px;
+    top: 654px;
+      
+}
+.e12{
+    position: absolute;
+    top: 1239px;
+      
+}
+.h1 p{
+    font-family: 'Aclonica';
+    font-size: 40px;
+    color: #74EA6A;
+    position: absolute;
+    left: 750px;
+    top: 80px;
+
+}
+.p1 p{
+    
+    font-size: 16px;
+    color: #74EA6A;
+    position: absolute;
+    left: 750px;
+    top: 150px;
+    line-height: 28px;
+
+}
+.h2 p{
+    font-family: 'Aclonica';
+    font-size: 40px;
+    color: #74EA6A;
+    position: absolute;
+    left: 30px;
+    top: 680px;
+
+}
+.p2 p{
+    
+    font-size: 16px;
+    color: #74EA6A;
+    position: absolute;
+    left: 30px;
+    top: 744px;
+    line-height: 28px;
+
+}
+.h3 p{
+    font-family: 'Aclonica';
+    font-size: 40px;
+    color: #74EA6A;
+    position: absolute;
+    left: 750px;
+    top: 1280px;
+
+}
+.p3 p{
+    
+    font-size: 16px;
+    color: #74EA6A;
+    position: absolute;
+    left: 750px;
+    top: 1340px;
+    line-height: 28px;
+
+}
